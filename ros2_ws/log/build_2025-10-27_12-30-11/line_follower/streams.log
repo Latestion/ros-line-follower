@@ -1,0 +1,36 @@
+[0.663s] Invoking command in '/home/udit/ros2_ws/build/line_follower': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/udit/ros2_ws/build/line_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/udit/ros2_ws/install/line_follower/lib/python3.12/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/udit/ros2_ws/build/line_follower/build
+[0.885s] running develop
+[0.995s] Removing /home/udit/ros2_ws/install/line_follower/lib/python3.12/site-packages/line-follower.egg-link (link to .)
+[1.051s] Invoked command in '/home/udit/ros2_ws/build/line_follower' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/udit/ros2_ws/build/line_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/udit/ros2_ws/install/line_follower/lib/python3.12/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/udit/ros2_ws/build/line_follower/build
+[1.054s] Invoking command in '/home/udit/ros2_ws/src/line_follower': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/udit/ros2_ws/build/line_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/udit/ros2_ws/install/line_follower/lib/python3.12/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/line_follower build --build-base /home/udit/ros2_ws/build/line_follower/build install --record /home/udit/ros2_ws/build/line_follower/install.log --single-version-externally-managed install_data --force
+[1.273s] running egg_info
+[1.287s] writing ../../build/line_follower/line_follower.egg-info/PKG-INFO
+[1.287s] writing dependency_links to ../../build/line_follower/line_follower.egg-info/dependency_links.txt
+[1.287s] writing entry points to ../../build/line_follower/line_follower.egg-info/entry_points.txt
+[1.287s] writing requirements to ../../build/line_follower/line_follower.egg-info/requires.txt
+[1.287s] writing top-level names to ../../build/line_follower/line_follower.egg-info/top_level.txt
+[1.302s] reading manifest file '../../build/line_follower/line_follower.egg-info/SOURCES.txt'
+[1.303s] writing manifest file '../../build/line_follower/line_follower.egg-info/SOURCES.txt'
+[1.304s] running build
+[1.304s] running build_py
+[1.304s] creating /home/udit/ros2_ws/build/line_follower/build
+[1.304s] creating /home/udit/ros2_ws/build/line_follower/build/lib
+[1.304s] creating /home/udit/ros2_ws/build/line_follower/build/lib/line_follower
+[1.304s] copying line_follower/follower_node.py -> /home/udit/ros2_ws/build/line_follower/build/lib/line_follower
+[1.304s] copying line_follower/__init__.py -> /home/udit/ros2_ws/build/line_follower/build/lib/line_follower
+[1.305s] running install
+[1.312s] running install_lib
+[1.321s] creating /home/udit/ros2_ws/install/line_follower/lib/python3.12/site-packages/line_follower
+[1.322s] copying /home/udit/ros2_ws/build/line_follower/build/lib/line_follower/follower_node.py -> /home/udit/ros2_ws/install/line_follower/lib/python3.12/site-packages/line_follower
+[1.322s] copying /home/udit/ros2_ws/build/line_follower/build/lib/line_follower/__init__.py -> /home/udit/ros2_ws/install/line_follower/lib/python3.12/site-packages/line_follower
+[1.322s] byte-compiling /home/udit/ros2_ws/install/line_follower/lib/python3.12/site-packages/line_follower/follower_node.py to follower_node.cpython-312.pyc
+[1.322s] byte-compiling /home/udit/ros2_ws/install/line_follower/lib/python3.12/site-packages/line_follower/__init__.py to __init__.cpython-312.pyc
+[1.322s] running install_data
+[1.323s] copying resource/line_follower -> /home/udit/ros2_ws/install/line_follower/share/ament_index/resource_index/packages
+[1.323s] copying package.xml -> /home/udit/ros2_ws/install/line_follower/share/line_follower
+[1.323s] running install_egg_info
+[1.332s] Copying ../../build/line_follower/line_follower.egg-info to /home/udit/ros2_ws/install/line_follower/lib/python3.12/site-packages/line_follower-0.0.1-py3.12.egg-info
+[1.332s] running install_scripts
+[1.422s] Installing follower script to /home/udit/ros2_ws/install/line_follower/lib/line_follower
+[1.428s] writing list of installed files to '/home/udit/ros2_ws/build/line_follower/install.log'
+[1.462s] Invoked command in '/home/udit/ros2_ws/src/line_follower' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/udit/ros2_ws/build/line_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/udit/ros2_ws/install/line_follower/lib/python3.12/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/line_follower build --build-base /home/udit/ros2_ws/build/line_follower/build install --record /home/udit/ros2_ws/build/line_follower/install.log --single-version-externally-managed install_data --force
